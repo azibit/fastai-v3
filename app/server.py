@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://azibit-models-bucket-1.s3.amazonaws.com/export.pkl'
-export_file_name = 'export.pkl'
+export_file_url = 'https://azibit-models-bucket-1.s3.amazonaws.com/export1.pkl'
+export_file_name = 'export1.pkl'
 
 classes = ['Resistant', 'Malignant']
 path = Path(__file__).parent
